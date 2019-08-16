@@ -1,0 +1,12 @@
+@font-face {
+  font-family: pictos;
+  src: url("../fonts/BebasKai-Regular.otf");
+}
+@font-face {
+  font-family: DINPro-Medium;
+  src: url("../fonts/DINPro-Medium.ttf");
+}
+@font-face {
+  font-family: PingFangSC-Semibold;
+  src: url('../fonts/PingFang-SC-Bold.ttf');
+}

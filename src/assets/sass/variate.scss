@@ -1,0 +1,60 @@
+@charset "utf-8";
+/*
+@module 颜色
+*/
+
+  /*背景色*/
+$body-bg:#19374b;//body背景颜色
+$head-bg:#195264;//头部背景颜色
+$leftbar-bg:#234358;//左侧菜单栏背景颜色
+$container-bg:#0d2533;//右侧内容背景颜色
+$base-bg:#193546;//常用背景颜色
+$menu-bg:#138782;//一级菜单选中背景色
+$submenu-bg:#196c71;//二级菜单选中背景色
+$tab-bg:#148782;//tab切换中选中背景颜色
+$barcomponent-bg:#1bc8ac;//bar组件背景色
+
+  /*背景颜色名*/
+$tableOdd-bg:#233d4c;//table tr 偶数背景色
+$dialog-bg:#1a3546;//element 弹出框背景色
+$defaultBtn-bg:#3c627b;//默认button背景颜色
+$blueBtn-bg:#286695;//蓝色背景颜色
+  /*颜色名*/
+$bg-black:#000;//黑色背景
+$bg-gray:#3b5160;//灰色背景
+
+  /*边框颜色*/
+$border-green:#148782;//亮绿色边框颜色
+$border-blackBlue:#475d6b;//深蓝色边框颜色
+$border-orange:#b64b00;//橙色边框颜色
+$border-gray:#5b6f7b;//灰色边框
+$border-red:#dc0000;//一次接线图红色边框
+
+  /*字体颜色*/
+$font-baseColor:#fff;//基础字体颜色
+$font-green:#138782;//绿色
+$font-blackGreen:#09868a;//深绿色
+$font-blue:#85b9e8;//蓝色
+$font-dialogTitle:#7995ae;//element弹出框title字体颜色
+$font-barName:#658294;//bar组件name字体颜色
+$font-grayColor:#696c74;//灰色字体
+$font-whiteColor:#fff;//白色字体
+$font-redColor:#dc0000;//一次接线图红色字体
+
+/*
+@module 字体大小
+*/
+$fontSizeBase:14px;
+$font12:12px;
+$font14:14px;
+$font18:18px;
+$font24:24px;
+$font30:30px;
+/*
+@module 距离
+*/
+$m5:5px;
+$m10:10px;
+$m15:15px;
+$m20:20px;
+$m30:30px;
