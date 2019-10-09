@@ -4,17 +4,17 @@
         <span>{{$store.state.count}}</span>
       </div>
       <div>
-        <button @click="add">add</button>
-        <button @click="reduce">reduce</button>
-        <button @click="save">save</button>
-        <button @click="take">take</button>
-        <ul style="width: 500px;height: 300px;background: #f4f4f4">
-          <li v-for="(item,index) in list" :key="index">
-            <input type="text" v-model="item.value">
-            <input type="text" v-model="item.value2">
-            <button @click="btn(item)">btn</button>
-          </li>
-        </ul>
+        <button @click="add">vuex里count+10</button>
+        <button @click="reduce">vuex里count-5</button>
+        <button @click="save">把改变后的count存到vuex</button>
+        <button @click="take">读取vuex里的count</button>
+<!--        <ul style="width: 500px;height: 300px;background: #f4f4f4">-->
+<!--          <li v-for="(item,index) in list" :key="index">-->
+<!--            <input type="text" v-model="item.value">-->
+<!--            <input type="text" v-model="item.value2">-->
+<!--            <button @click="btn(item)">btn</button>-->
+<!--          </li>-->
+<!--        </ul>-->
       </div>
     </div>
 </template>
@@ -35,19 +35,19 @@
             }
         },
         created() {
-            // this.animation()
+            this.animation()
         },
         methods:{
             btn(val){
               console.log(val)
             },
             add(){
-                // this.$store.commit('add',10)
-                let obj = {
-                    value:'',
-                    value2:''
-                };
-                this.list.push(obj)
+                this.$store.commit('add',10)
+                // let obj = {
+                //     value:'',
+                //     value2:''
+                // };
+                // this.list.push(obj)
             },
             reduce(){
                 this.$store.commit('reduce',5)
