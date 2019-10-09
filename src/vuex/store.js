@@ -9,12 +9,15 @@ const state = {
 };
 
 const mutations = {
+  //操作count+
   add(state,n){
     return (state.count += n)
   },
+  //操作count-
   reduce(state,n){
     return (state.count -= n)
   },
+  //把count的值赋给value（变量的存储）
   save(state,val){
     state.value = val
   }
